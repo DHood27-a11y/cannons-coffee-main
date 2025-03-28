@@ -68,6 +68,7 @@ main {
   grid-template-columns: 1fr 1fr;
   background-color: white;
   border-top: 5px solid #ffd034;
+
   margin: 0;
   padding: 0;
   gap: 1rem;
@@ -84,7 +85,6 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   background-color: #cadbf8;
-  border-bottom: 5px solid #ffd034;
   margin-top: 0px;
   padding: 1rem;
 }
@@ -127,6 +127,7 @@ footer {
   color: white;
   padding: 1rem;
   margin-top: 0;
+  border-top: 5px solid #ffd034;
 }
 
 @media (min-width: 650px) {
