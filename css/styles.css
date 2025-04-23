@@ -160,3 +160,58 @@ footer {
     margin-top: 75px;
   }
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  padding-bottom: 40px;
+  background: white;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phone number"],
+input[type="password"],
+select,
+textarea {
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+label {
+  text-align: center;
+  font-weight: bold;
+}
+
+.login-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #517aa1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
